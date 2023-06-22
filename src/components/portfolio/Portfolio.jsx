@@ -25,7 +25,7 @@ const Portfolio = () => {
       title: "Realtime Chat Full Stack App",
       img: IMG2,
       description:
-        "Responsive, serverless and real-time app which make users able to start chatting and sending messages and receive notifications using socket.io.",
+        "Responsive, serverless and real-time app which make users able to start chatting, sending messages and receive notifications using socket.io.",
       technologies: "React.js | Bootstrap | SCSS | Node.js | Mongoose",
       link: "https://chatapp-frontend-navy.vercel.app/",
       github: "https://github.com/rozanmagdy1/chat-app-frontend",
@@ -34,7 +34,7 @@ const Portfolio = () => {
       id: 3,
       title: "Blood Bank Donation",
       img: IMG4,
-      description: "Participated in 50% of this project in developing RESTful APIs using Node.js and Mongoose, helps people to find blood donors and hospitals",
+      description: "Participated in 50% of this project in developing RESTful APIs using Node.js and Mongoose, helps people to find blood donors and hospitals.",
       technologies: "NextJs | MUI | NodeJs | Mongoose",
       link: "http://7ayet.vercel.app",
       github: "https://github.com/rozanmagdy1/blood-bank-backend",
@@ -63,7 +63,7 @@ const Portfolio = () => {
       title: "Courses Website",
       img: IMG6,
       description:
-        " Fully responsive frontend project created using HTML, CSS, SCSS, Bootstrap and Java Script. This app deployed in Vercel. ",
+        " Fully responsive frontend project created using HTML, CSS, SCSS, Bootstrap and Java Script.",
       technologies: "HTML | CSS | Scss | Bootstrap | JavaScript",
       link: "https://courses-website-html-scss-bootstrap-java-script-nu.vercel.app/",
       github: "https://github.com/rozanmagdy1/Courses-website-HTML-SCSS-Bootstrap-JavaScript",
