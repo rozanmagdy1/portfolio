@@ -16,7 +16,7 @@ const Portfolio = () => {
       img: IMG1,
       description:
         "Focus on criminal laboratory institutions to help them to detect the owner of fingerprint in crime scence to solve crimes.",
-      technologies: "Python | Node.js | MongoDB | React.js | Bootstrap",
+      technologies: "Python | Node.js | MongoDB | React.js | Tailwind",
       link: "https://adminv-ten.vercel.app/",
       github: "https://github.com/rozanmagdy1/fingerprint-backend",
     },
