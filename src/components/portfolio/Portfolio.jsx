@@ -4,7 +4,7 @@ import IMG2 from "../../assets/chatApp.png";
 import IMG3 from "../../assets/Ecommerce web page-pana.png";
 import IMG4 from "../../assets/bloodbank.png";
 import IMG5 from "../../assets/clinic.png";
-import IMG6 from "../../assets/math.png";
+import IMG6 from "../../assets/courses.png";
 
 import "./portfolio.css";
 
@@ -63,10 +63,10 @@ const Portfolio = () => {
       title: "Courses Website",
       img: IMG6,
       description:
-        "Real-world group project which is still in progress and will provide educational platform for future young developers",
-      technologies: "JavaScript | Scss | Python",
-      link: "https://lukinoo.github.io/math-resource/",
-      github: "https://github.com/lukinoo/math-resource",
+        " Fully responsive frontend project created using HTML, CSS, SCSS, Bootstrap and Java Script. This app deployed in Vercel. ",
+      technologies: "HTML | CSS | Scss | Bootstrap | JavaScript",
+      link: "https://courses-website-html-scss-bootstrap-java-script-nu.vercel.app/",
+      github: "https://github.com/rozanmagdy1/Courses-website-HTML-SCSS-Bootstrap-JavaScript",
     },
   ];
 
