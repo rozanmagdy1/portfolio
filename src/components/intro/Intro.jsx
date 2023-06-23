@@ -31,7 +31,7 @@ const Intro = () => {
           <p>
             <p>
               Hi there! I have a Bachelor's degree at Computers and Data Science
-              from Alexandria University, graduated with CGPA 3.8 and i'm eighth
+              from Alexandria University, graduated with CGPA 3.8318 and i'm eighth
               in my section.
             </p>
             <p>
