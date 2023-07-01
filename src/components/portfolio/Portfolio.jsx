@@ -12,7 +12,7 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Fingerprints Detection System",
+      title: "Fingerprints Detection System(My GP)",
       img: IMG1,
       description:
         "Focus on criminal laboratory institutions to help them to detect the owner of fingerprint in crime scence to solve crimes.",
