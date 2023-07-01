@@ -32,7 +32,7 @@ const Intro = () => {
             <p>
               Hi there! I have a Bachelor's degree at Computers and Data Science
               from Alexandria University, graduated with CGPA 3.83 and i'm ninth
-              in my section.
+              in my batch.
             </p>
             <p>
               I'm a highly skilled MERN stack developer with over 2 years of
