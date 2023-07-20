@@ -34,6 +34,7 @@ const Intro = () => {
               from Alexandria University, graduated with CGPA 3.83 and i'm ninth
               in my batch.
             </p>
+            <p>Currenlty work as Teacher Assistant at the faculty of computers and Data Science Alexandria university.</p>
             <p>
               I'm a highly skilled MERN stack developer with over 2 years of
               experience creating web applications that are efficient scalable,
