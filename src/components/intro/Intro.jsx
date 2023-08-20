@@ -20,7 +20,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2 years</small>
+              <small>4 years</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -31,20 +31,22 @@ const Intro = () => {
           <p>
             <p>
               Hi there! I have a Bachelor's degree at Computers and Data Science
-              from Alexandria University, graduated with CGPA 3.83 and i'm ninth
-              in my batch.
+              from Alexandria University, Graduated with an Excellent(H) degree,
+              CGPA 3.83.
             </p>
-            <p>Currenlty work as Teacher Assistant at the faculty of computers and Data Science Alexandria university.</p>
             <p>
-              I'm a highly skilled MERN stack developer with over 2 years of
-              experience creating web applications that are efficient scalable,
-              and easy to maintain. My expertise lies in developing complex
-              applications using MongoDB, Express, ReactJS, and Node.js. I have
-              a deep understanding of both the front-end and back-end
-              technologies required for a full-stack application. My technical
-              expertise includes React Hooks, Redux, RESTful APIs, and JWT
-              authentication. I have worked on projects ranging from simple
-              landing pages to full-fledged platforms.
+              Currenlty work as Teacher Assistant at the faculty of computers
+              and Data Science Alexandria university.
+            </p>
+            <p>
+              Highly skilled in backend techniques with over 4 years of
+              dedicated expertise in crafting and deploying robust web
+              applications. Adept at harnessing the power of MongoDB, ExpressJS,
+              and NodeJS to create seamless and efficient backend systems.
+              Demonstrated proficiency in collaborating harmoniously within
+              teams, ensuring adherence to demanding timelines. Can deal with
+              SQL and NoSQL databases. Also highly skilled in frontend
+              technologies like ReactJS, Bootstrap and tailwind.
             </p>
           </p>
           <a href="#contact" className="btn btn-primary">
