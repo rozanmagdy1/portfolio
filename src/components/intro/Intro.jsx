@@ -32,21 +32,21 @@ const Intro = () => {
             <p>
               Hi there! I have a Bachelor's degree at Computers and Data Science
               from Alexandria University, Graduated with an Excellent(H) degree,
-              CGPA 3.83.
+              CGPA 3.83. I am currently studying for a master's degree in artificial intelligence 
+              at Ain Shams University.
             </p>
             <p>
-              Currenlty work as Teacher Assistant at the faculty of computers
-              and Data Science Alexandria university.
+            Software Engineer at Bibliotheca Alexandrina. Former Teacher Assistant at 
+            the faculty of computers and Data Science Alexandria university.
             </p>
             <p>
-              Highly skilled in backend techniques with over 4 years of
-              dedicated expertise in crafting and deploying robust web
-              applications. Adept at harnessing the power of MongoDB, ExpressJS,
-              and NodeJS to create seamless and efficient backend systems.
-              Demonstrated proficiency in collaborating harmoniously within
-              teams, ensuring adherence to demanding timelines. Can deal with
-              SQL and NoSQL databases. Also highly skilled in frontend
-              technologies like ReactJS, Bootstrap and tailwind.
+            Highly skilled in full stack techniques with over 4 years of dedicated expertise 
+            in crafting and deploying robust web applications. Adept at harnessing the power 
+            of NodeJS, MySQL, MongoDB, ReactJS and ExpressJS to create seamless and efficient 
+            full stack systems. Demonstrated proficiency in collaborating harmoniously within 
+            teams, ensuring adherence to demanding timelines. Also, can make applications using 
+            ASP.Net technologies (MVC, Razor pages and Web APIS) and MSSQL database. 
+            Able to deal with SQL and NoSQL databases.
             </p>
           </p>
           <a href="#contact" className="btn btn-primary">
