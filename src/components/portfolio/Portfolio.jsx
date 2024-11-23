@@ -2,7 +2,6 @@ import React from "react";
 import IMG1 from "../../assets/fingerprints.png";
 import IMG2 from "../../assets/chatApp.png";
 import IMG3 from "../../assets/Ecommerce web page-pana.png";
-import IMG4 from "../../assets/bloodbank.png";
 import IMG5 from "../../assets/clinic.png";
 import IMG6 from "../../assets/courses.png";
 
@@ -32,15 +31,6 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "Blood Bank Donation",
-      img: IMG4,
-      description: "Participated in 50% of this project in developing RESTful APIs using Node.js and Mongoose, helps people to find blood donors and hospitals.",
-      technologies: "NextJs | MUI | Node.js | Express.js | Mongoose",
-      link: "http://7ayet.vercel.app",
-      github: "https://github.com/rozanmagdy1/blood-bank-backend",
-    },
-    {
-      id: 4,
       title: "E-commerce Backend",
       img: IMG3,
       description: "This application is serverless contains an administration panel and has 100% of the functionalities of an online store  . Used in it Sendinblue mailer service.",
@@ -49,7 +39,7 @@ const Portfolio = () => {
       github: "https://github.com/rozanmagdy1/fingerprint-backend",
     },
     {
-      id: 5,
+      id: 4,
       title: "Clinic App",
       img: IMG5,
       description:
@@ -59,7 +49,7 @@ const Portfolio = () => {
       github: "https://github.com/rozanmagdy1/clinic-backend",
     },
     {
-      id: 6,
+      id: 5,
       title: "Courses Website",
       img: IMG6,
       description:
@@ -95,14 +85,19 @@ const Portfolio = () => {
               >
                 GitHub
               </a>
-              <a
-                href={pro.link}
-                target="_blank"
-                className="btn btn-primary"
-                rel="noreferrer"
-              >
-                Link
-              </a>
+              {pro.id === 3 ||  pro.id === 4? (
+                <div></div>
+              ) : (
+                <a
+                  href={pro.link}
+                  target="_blank"
+                  className="btn btn-primary"
+                  rel="noreferrer"
+                >
+                  Link
+                </a>
+              )}
+
             </div>
           </article>
         ))}
