@@ -16,7 +16,7 @@ const Portfolio = () => {
       title: "BALIS – Bibliotheca Alexandrina Library Integrated System",
       img: IMG7,
       description:
-        "Contributed to the maintenance and enhancement of BALIS, the Bibliotheca Alexandrina's core library management system, supporting millions of records and global users. Played a key role in developing and optimizing new features across both the online catalog and backend services, improving system performance, scalability, and user experience. Collaborated with cross-functional teams to implement system upgrades and integrate international library standards such as MARC21 and Z39.50.",
+        "Contributed to the maintenance and enhancement of BALIS, the Bibliotheca Alexandrina's core library management system, supporting millions of records and global users. Played a key role in developing and optimizing new features across both the online catalog and backend services, improving system performance, scalability, and user experience.",
       technologies: "ASP.NET | Solr",
       link: "https://balis.bibalex.org/",
       github: "",
