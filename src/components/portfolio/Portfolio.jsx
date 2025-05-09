@@ -4,6 +4,8 @@ import IMG2 from "../../assets/chatApp.png";
 import IMG3 from "../../assets/Ecommerce web page-pana.png";
 import IMG5 from "../../assets/clinic.png";
 import IMG6 from "../../assets/courses.png";
+import IMG7 from "../../assets/BA.jpg";
+
 
 import "./portfolio.css";
 
@@ -11,6 +13,16 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
+      title: "BALIS – Bibliotheca Alexandrina Library Integrated System",
+      img: IMG7,
+      description:
+        "Contributed to the maintenance and enhancement of BALIS, the Bibliotheca Alexandrina's core library management system, supporting millions of records and global users. Played a key role in developing and optimizing new features across both the online catalog and backend services, improving system performance, scalability, and user experience. Collaborated with cross-functional teams to implement system upgrades and integrate international library standards such as MARC21 and Z39.50.",
+      technologies: "ASP.NET | Solr",
+      link: "https://balis.bibalex.org/",
+      github: "",
+    },
+    {
+      id: 2,
       title: "Fingerprints Detection System(My GP)",
       img: IMG1,
       description:
@@ -20,7 +32,7 @@ const Portfolio = () => {
       github: "https://github.com/rozanmagdy1/fingerprint-backend",
     },
     {
-      id: 2,
+      id: 3,
       title: "Realtime Chat Full Stack App",
       img: IMG2,
       description:
@@ -30,7 +42,7 @@ const Portfolio = () => {
       github: "https://github.com/rozanmagdy1/chat-app-frontend",
     },
     {
-      id: 3,
+      id: 4,
       title: "E-commerce Backend",
       img: IMG3,
       description: "This application is serverless contains an administration panel and has 100% of the functionalities of an online store  . Used in it Sendinblue mailer service.",
@@ -39,7 +51,7 @@ const Portfolio = () => {
       github: "https://github.com/rozanmagdy1/fingerprint-backend",
     },
     {
-      id: 4,
+      id: 5,
       title: "Clinic App",
       img: IMG5,
       description:
@@ -49,7 +61,7 @@ const Portfolio = () => {
       github: "https://github.com/rozanmagdy1/clinic-backend",
     },
     {
-      id: 5,
+      id: 6,
       title: "Courses Website",
       img: IMG6,
       description:
@@ -77,7 +89,10 @@ const Portfolio = () => {
               <p className="techo">{pro.technologies}</p>
             </div>
             <div className="portfolio__item-cta">
-              <a
+              {pro.id === 1? (
+                <div></div>
+              ) : (
+                <a
                 href={pro.github}
                 target="_blank"
                 className="btn"
@@ -85,7 +100,10 @@ const Portfolio = () => {
               >
                 GitHub
               </a>
-              {pro.id === 3 ||  pro.id === 4? (
+              )}
+
+
+              {pro.id === 5 ||  pro.id === 4? (
                 <div></div>
               ) : (
                 <a

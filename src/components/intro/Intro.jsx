@@ -40,13 +40,13 @@ const Intro = () => {
             the faculty of computers and Data Science Alexandria university.
             </p>
             <p>
-            Highly skilled in full stack techniques with over 4 years of dedicated expertise 
-            in crafting and deploying robust web applications. Adept at harnessing the power 
-            of NodeJS, MySQL, MongoDB, ReactJS and ExpressJS to create seamless and efficient 
-            full stack systems. Demonstrated proficiency in collaborating harmoniously within 
-            teams, ensuring adherence to demanding timelines. Also, can make applications using 
-            ASP.Net technologies (MVC, Razor pages and Web APIS) and MSSQL database. 
-            Able to deal with SQL and NoSQL databases.
+            Full-stack Software Engineer with 3+ years of hands-on experience in both Microsoft (.NET) and JavaScript (MERN) ecosystems. Skilled 
+            in building scalable web applications, RESTful APIs, and enterprise-grade solutions using technologies like ASP.NET Core (MVC and 
+            MVVM), MS SQL Server, MongoDB, Express.js, React.js, and Node.js. Experienced in integrating API gateways and payment gateways 
+            to ensure secure and efficient communication between distributed services and external providers. Proficient in implementing 
+            scheduled tasks and background jobs to support business workflows and automation. Strong advocate of clean architecture and the 
+            service-repository design pattern for maintainable and testable codebases. Adept at agile development practices, version control, and 
+            CI/CD pipelines to enable rapid and reliable delivery across the full development lifecycle, including cloud deployment.
             </p>
           </p>
           <a href="#contact" className="btn btn-primary">
